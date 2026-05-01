@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+    width="115mm"
+    height="32mm"
+    version="1.1"
+    viewBox="0 0 115 32"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:freecad="http://www.freecad.org/wiki/index.php?title=Svg_Namespace">
+
+    <g transform="translate(0, 0)">
+        <g fill="none" stroke="#000" stroke-width="0.7">
+            <path d="M0 32 v-32 h115"/>
+            <g stroke-width="0.35">
+                <path d="M20 32 v-32"/>
+                <path d="M85 32 v-24"/>
+                <path d="M0 8 h115"/>
+                <path d="M0 16 h115"/>
+                <path d="M0 24 h20"/>
+                <path d="M85 24 h30"/>
+            </g>
+        </g>
+
+        <g style="font-variant-ligatures:none">
+            <g
+                font-family="'Arial Narrow'"
+                font-size="2"
+                text-anchor="start"
+                dominant-baseline="hanging">
+
+                <text x="1" y="1">UNIDADES</text>
+                <text x="1" y="17">TAMAÑO</text>
+                <text x="1" y="25">ESCALA</text>
+                <text x="21" y="1">PROYECTO</text>
+                <text x="21" y="9">AUTOR</text>
+                <text x="21" y="17">PLANO</text>
+                <text x="86" y="9">FECHA</text>
+                <text x="86" y="17">REVISION</text>
+                <text x="86" y="25">HOJA</text>
+            </g>
+
+            <g
+                font-family="Arial"
+                font-size="3.5"
+                font-weight="bold"
+                text-anchor="middle"
+                dominant-baseline="central">
+
+                <text x="10" y="5.25" freecad:editable="units">mm</text>
+                <text x="10" y="21.25" freecad:editable="size">A4</text>
+                <text x="10" y="29.25" freecad:editable="scale">1:25</text>
+                <text x="67.5" y="5.25" freecad:editable="project">TITULO DEL PROYECTO</text>
+                <text x="52.5" y="13.25" freecad:editable="author">NOMBRE DEL AUTOR</text>
+                <text x="52.5" y="25.25" freecad:editable="plane">TITULO DEL PLANO</text>
+                <text x="100" y="13.25" freecad:editable="date">XX/XX/XXXX</text>
+                <text x="100" y="21.25" freecad:editable="revision">A</text>
+                <text x="100" y="29.25" freecad:editable="sheet" font-size="5">1 de XX</text>
+            </g>
+        </g>
+
+        <g 
+            fill="none"
+            stroke="#000"
+            transform="matrix(.073171 0 0 .073171 2.3902 8.3415)"
+            stroke-width="2">
+
+            <path d="m13 50h182" stroke-dasharray="10.9333, 5.46667, 2.73333, 5.46667"/>
+            <path d="m150 9v82" stroke-dasharray="10.9333, 5.46667, 2.73333, 5.46667"/>
+            <g>
+                <circle cx="150" cy="50" r="16"/>
+                <circle cx="150" cy="50" r="32"/>
+                <path d="m22 66 64 16v-64l-64 16z"/>
+            </g> 
+        </g>
+    </g>
+</svg>
